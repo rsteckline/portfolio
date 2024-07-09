@@ -1,52 +1,47 @@
-import React, { useRef } from "react";
+import React from "react";
 
 function Contact() {
-  const nameRef = useRef(null);
-  const emailRef = useRef(null);
-  const messageRef = useRef(null);
-
-  const handleContactFormSubmit = (e) => {
-    e.preventDefault();
-    if (
-      !nameRef.current.value ||
-      !emailRef.current.value ||
-      !messageRef.current.value
-    ) {
-      alert("Please fill out completely so we can connect!");
-      return;
-    }
-    e.target.submit();
-  };
-
   return (
     <div className="flex flex-col mb-10 mx-auto">
+    <h1 class="text-3xl text-center">Contact</h1>
+  <p class="mt-4 mb-5 text-lg text-center">
+    Send me a message if you have any questions or want to work together.
+  </p>
       <div className="flex justify-center items-center">
         <form
           action="https://getform.io/f/bzyllzea"
           method="POST"
           className="flex flex-col w-full md:w-7/12"
-          onSubmit={handleContactFormSubmit}
         >
+          <div className="flex flex-col sm:flex-row gap-4 mb-4">
+          <div className="flex flex-col flex-grow">
+            <label htmlFor="name" className="block text-sm font-medium text-gray-500">Name</label>
           <input
-            ref={nameRef}
-            type="text"
-            name="name"
-            placeholder="Name"
-            className="p-2 bg-transparent border-2 rounded-lg focus:outline-none"
-          />
-          <input
-            ref={emailRef}
-            type="text"
-            name="name"
-            placeholder="Email"
-            className="my-2 p-2 bg-transparent border-2 rounded-lg focus:outline-none"
-          />
+              required
+              type="text"
+              name="name"
+              className="p-2 bg-transparent border-2 rounded-lg focus:ring-primary focus:border-primary border-gray-300"
+              minLength="2"
+            />
+            </div>
+            <div className="flex flex-col flex-grow">
+            <label htmlFor="email" className="block text-sm font-medium text-gray-500">Email</label>
+            <input
+              required
+              type="email"
+              name="email"
+              className="p-2 bg-transparent border-2 rounded-lg focus:ring-primary focus:border-primary border-gray-300"
+              minLength="5"
+            />
+          </div>
+          </div>
+          <label for="message" class="block text-sm font-medium text-gray-500">Message</label>
           <textarea
-            ref={messageRef}
+            required
             name="message"
-            placeholder="Message"
-            rows="4"
-            className="p-2 mb-4 bg-transparent border-2 rounded-lg focus:outline-none"
+            rows="3"
+            className="p-2 mb-4 bg-transparent border-2 rounded-lg focus:ring-primary focus:border-primary  border-gray-300"
+            minLength="5"
           />
           <button
             type="submit"
