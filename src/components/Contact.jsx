@@ -1,18 +1,19 @@
 import React from "react";
+import Title from "./Title";
 
 function Contact() {
   return (
     <div className="flex flex-col mb-10 mx-auto">
-    <h1 class="text-3xl text-center">Contact</h1>
-  <p class="mt-4 mb-5 text-lg text-center">
-    Send me a message if you have any questions or want to work together.
-  </p>
       <div className="flex justify-center items-center">
         <form
           action="https://getform.io/f/bzyllzea"
           method="POST"
           className="flex flex-col w-full md:w-7/12"
         >
+          <span className="text-center"><Title>Contact Me</Title></span>
+          <p class="mb-5 text-lg text-center">
+    Send a message if you have any questions or want to work together.
+  </p>
           <div className="flex flex-col sm:flex-row gap-4 mb-4">
           <div className="flex flex-col flex-grow">
             <label htmlFor="name" className="block text-sm font-medium text-gray-500">Name</label>
