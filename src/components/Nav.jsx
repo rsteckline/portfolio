@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-const Nav = () => {
+const NavLinks = () => {
   return (
     <>
       <NavLink to="/Portfolio">Portfolio</NavLink>
@@ -10,4 +10,13 @@ const Nav = () => {
   );
 };
 
+const Nav = () => {
+    return (
+        <nav className="w-1/3">
+            <div className="flex justify-between">
+                <NavLinks/>
+            </div>
+        </nav>
+    )
+}
 export default Nav;
