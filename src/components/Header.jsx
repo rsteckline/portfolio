@@ -4,10 +4,9 @@ import Nav from "./Nav";
 
 const Header = () => {
   return (
-    <header className="flex w-full items-center justify-between mx-auto p-8">
-        <Logo />
-        <Nav />
-      <h1>Header</h1>
+    <header className="flex items-center justify-between mx-auto p-8 text-lg max-w-full font-bold">
+      <Logo />
+      <Nav />
     </header>
   );
 };
