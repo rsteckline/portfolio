@@ -6,7 +6,7 @@ function Intro() {
       <h1 className="text-4xl sm:text-5xl md:text-6xl mb-8 font-bold">
         Bobby Steckline
       </h1>
-      <p className="text-xl sm:text-2xl md:text-3xl mb-12 font-bold">Software Engineer</p>
+      <p className="text-xl sm:text-2xl md:text-3xl mb-12 font-bold">Deployment Test</p>
       <p className="text-lg max-w-full md:max-w-3xl lg:max-w-4xl mb-20 font-bold">
         With over 10 years of management experience, I'm specializing in
         JavaScript, CSS, HTML, React, TypeScript, Tailwind, and UI/UX design
