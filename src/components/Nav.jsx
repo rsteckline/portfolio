@@ -11,12 +11,12 @@ const NavLinks = () => {
 };
 
 const Nav = () => {
-    return (
-        <nav className="w-1/3">
-            <div className="flex justify-between">
-                <NavLinks/>
-            </div>
-        </nav>
-    )
-}
+  return (
+    <nav className="w-1/3">
+      <div className="flex justify-between">
+        <NavLinks />
+      </div>
+    </nav>
+  );
+};
 export default Nav;
