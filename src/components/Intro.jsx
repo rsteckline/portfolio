@@ -7,7 +7,7 @@ function Intro() {
         Bobby Steckline
       </h1>
       <p className="text-xl sm:text-2xl md:text-3xl mb-12 font-bold">Software Engineer</p>
-      <p className="text-lg max-w-full md:max-w-3xl lg:max-w-4xl mb-20 font-bold">
+      <p className="text-lg max-w-full md:max-w-3xl lg:max-w-4xl font-bold">
         With over 10 years of management experience, I'm specializing in
         JavaScript, CSS, HTML, React, TypeScript, Tailwind, and UI/UX design
         focused on accessibility through Agile/Scrum, OOP, TDD, and CI/CD
