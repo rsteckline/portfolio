@@ -6,6 +6,10 @@ export default {
     extend: {
       fontFamily: {
         inter: ['inter', 'serif'],
+      },
+      colors: {
+        main: '#19414e',
+        cream: '#F6F4F1',
       }
     },
   },
