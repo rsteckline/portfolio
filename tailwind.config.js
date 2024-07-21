@@ -8,7 +8,8 @@ export default {
         inter: ['inter', 'serif'],
       },
       colors: {
-        '19414e': '#19414e',
+        main: '#19414e',
+        cream: '#F6F4F1',
       }
     },
   },
