@@ -5,7 +5,7 @@ import Title from "./Title";
 
 function Portfolio() {
   return (
-    <div className="flex flex-col items-center justify-center mt-10 mb-10">
+    <div className="flex flex-col items-center justify-center pt-10 pb-10 bg-cream font-jetbrains">
       <div className="text-center">
         <Title>Projects</Title>
       </div>

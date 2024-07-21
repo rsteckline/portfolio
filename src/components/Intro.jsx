@@ -2,7 +2,7 @@ import React from "react";
 
 function Intro() {
   return (
-    <div className="flex items-center justify-center flex-col text-center pt-8 pb-12 px-4 sm:px-6 md:px-8 lg:px-0 bg-cream">
+    <div className="flex items-center justify-center flex-col text-center pt-8 pb-12 px-8 sm:px-12 md:px-16 lg:px-24 bg-cream font-jetbrains">
       <h1 className="text-3xl sm:text-4xl md:text-5xl mb-8 font-bold text-main">
         Bobby Steckline
       </h1>
