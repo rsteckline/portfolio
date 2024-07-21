@@ -4,6 +4,7 @@ import Intro from './components/Intro';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -12,6 +13,9 @@ function App() {
       <main>
         <section>
           <Intro />
+        </section>
+        <section id="skills">
+          <Skills />
         </section>
         <section id="projects">
           <Portfolio />

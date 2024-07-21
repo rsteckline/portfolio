@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        inter: ['inter', 'serif'],
+        jetbrains: ['"JetBrains Mono"', 'monospace'],
       },
       colors: {
         main: '#19414e',
@@ -15,4 +15,3 @@ export default {
   },
   plugins: [],
 }
-
