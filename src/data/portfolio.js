@@ -1,6 +1,6 @@
 export default [
     {
-        title: "Belongea Boulangerie",
+        title: "La Boulangerie",
         imgUrl: '/assets/bb.png',
         stack: ['JavaScript', 'React', 'TypeScript', 'HTML', 'CSS', 'Cypress'],
         URL: "https://laboulangerie.vercel.app/",
