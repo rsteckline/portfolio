@@ -3,7 +3,7 @@ import { SquareDashedBottomCode, MonitorSmartphone, BarChart4, ServerCog } from 
 
 function Skills() {
   return (
-    <div className="flex flex-wrap justify-center items-start mt-16 sm:mt-10 mb-16 font-jetbrains">
+    <div className="flex flex-wrap justify-center items-start mt-10 mb-10 font-jetbrains">
       <div className="w-full md:w-1/2 lg:w-1/4 p-4 text-center">
         <SquareDashedBottomCode
           size={48}
