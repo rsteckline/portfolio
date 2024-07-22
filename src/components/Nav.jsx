@@ -10,13 +10,13 @@ const Nav = () => {
 
   return (
     <div className="relative">
-      <button onClick={toggleNavbar} className="md:hidden z-30">
-        {isOpen ? <X size={24} /> : <Menu size={24} />}
+      <button onClick={toggleNavbar} className="md:hidden z-30 text-main">
+        {isOpen ? <X size={32} /> : <Menu size={48} />}
       </button>
       {isOpen && (
-        <div className="absolute top-full right-0 flex flex-col items-start bg-transparent">
-          <a href="#projects" className="block px-3 py-2">Projects</a>
-          <a href="#contact" className="block px-3 py-2">Contact</a>
+        <div className="absolute top-full right-0 flex flex-col items-start bg-transparent text-main">
+          <a href="#projects" className="block px-3">Projects</a>
+          <a href="#contact" className="block px-3">Contact</a>
         </div>
       )}
       <div className="hidden md:flex">
