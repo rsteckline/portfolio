@@ -14,7 +14,7 @@ const Nav = () => {
         {isOpen ? <X size={32} /> : <Menu size={48} />}
       </button>
       {isOpen && (
-        <div className="absolute top-full right-0 flex flex-col items-start bg-transparent text-main">
+        <div className="absolute top-full right-0 p-1 flex flex-col items-start bg-white rounded-md text-main">
           <a href="#projects" className="block px-3">Projects</a>
           <a href="#contact" className="block px-3">Contact</a>
         </div>
