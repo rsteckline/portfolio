@@ -16,6 +16,7 @@ function Portfolio() {
             title={project.title}
             stack={project.stack}
             URL={project.URL}
+            key={project.title}
           />
         ))}
       </div>
