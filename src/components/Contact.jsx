@@ -12,7 +12,7 @@ function Contact() {
         >
           <span className="text-center"><Title>Let's Connect</Title></span>
           <p className="mb-5 text-lg text-center">
-          Interested in collaborating or looking to chat over coffee? Shoot me a message and let's talk.
+          Interested in collaborating or want to chat over coffee? Shoot me a message and let's talk!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mb-4">
             <div className="flex flex-col w-full sm:w-auto sm:flex-grow">
