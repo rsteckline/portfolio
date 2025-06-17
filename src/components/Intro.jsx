@@ -12,17 +12,12 @@ function Intro() {
             Software Engineer & Support Specialist
           </p>
           <p className="text-sm sm:text-xs md:text-md lg:text-lg max-w-full md:max-w-3xl lg:max-w-3xl font-bold text-main">
-            With over a decade of management expertise, I specialize in software development and technical
-            customer support
-            with a focus on accessibility and user-centered design utilizing Agile methods to deliver scalable solutions. My ability to lead teams,
-            collaborate effectively, and solve complex problems has been honed
-            through diverse projects — blending technical expertise with an
-            empathetic, client-focused approach.
+            I'm a software engineer with a background in technical support and over 10 years of experience in leadership and client-facing roles. I build accessible, user-centered web applications using React, TypeScript, Ruby on Rails, and modern frontend tools. With a focus on usability, performance, and clean code, I bring both technical skill and real-world problem-solving to every project I work on.
           </p>
         </div>
-        <div className="ml-8 lg:ml-16 flex-shrink-0 hidden lg:block mt-[-150px]">
+        {/* <div className="ml-8 lg:ml-16 flex-shrink-0 hidden lg:block mt-[-150px]">
           <img src="/assets/me.png" alt="Bobby Steckline" className="w-60" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
