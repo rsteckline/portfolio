@@ -5,7 +5,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Skills from './components/Skills';
-import Challenges from './components/Challenges';
+// import Challenges from './components/Challenges';
 
 function App() {
   return (
@@ -21,9 +21,9 @@ function App() {
         <section id="projects">
           <Portfolio />
         </section>
-        <section id="challenges">
+        {/* <section id="challenges">
           <Challenges />
-        </section>
+        </section> */}
         <section id="contact">
           <Contact />
         </section>
