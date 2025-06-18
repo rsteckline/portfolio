@@ -9,7 +9,7 @@ function CurrentWork() {
       </div>
       <div className="w-full max-w-2xl space-y-8">
         <div className="bg-white rounded-lg shadow-lg p-6 border border-gray-200">
-          <h2 className="text-xl md:text-2xl ;g: font-bold text-main mb-1">
+          <h2 className="text-xl md:text-2xl font-bold text-main mb-1">
             Software Engineer Apprentice
           </h2>
           <p className="text-md mb-1 font-semibold pl-2">
