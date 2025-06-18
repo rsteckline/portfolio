@@ -5,7 +5,7 @@ import Title from "./Title";
 
 function Projects() {
   return (
-    <div className="flex flex-col items-center justify-center pt-10 pb-5 bg-cream font-jetbrains">
+    <div className="flex flex-col items-center justify-center pt-8 pb-5 bg-cream font-jetbrains">
       <div className="text-center">
         <Title>Projects</Title>
       </div>

@@ -21,7 +21,7 @@ function ProjectCard({ title, imgUrl, stack, URL }) {
           {stack.map((item, index) => (
             <span
               key={index}
-              className="inline-block px-2 py-1 font-semibold border-2 border-gray-200 rounded-md"
+              className="inline-block px-2 py-1 font-semibold border-2 border-gray-200 rounded-md bg-white"
             >
               {item}
             </span>

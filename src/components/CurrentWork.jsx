@@ -3,13 +3,13 @@ import Title from "./Title";
 
 function CurrentWork() {
   return (
-    <div className="flex flex-col items-center justify-center pt-10 pb-12 px-6 sm:px-12 md:px-16 lg:px-24 bg-cream font-jetbrains w-full">
+    <div className="flex flex-col items-center justify-center pt-10 pb-16 px-6 sm:px-12 md:px-16 lg:px-24 bg-cream font-jetbrains w-full">
       <div className="text-center w-full">
         <Title>Current Work</Title>
       </div>
       <div className="w-full max-w-2xl space-y-8">
         <div className="bg-white rounded-lg shadow-lg p-6 border border-gray-200">
-          <h2 className="text-xl md:text-2xl ;g: font-bold text-main mb-1">
+          <h2 className="text-xl md:text-2xl font-bold text-main mb-1">
             Software Engineer Apprentice
           </h2>
           <p className="text-md mb-1 font-semibold pl-2">
