@@ -3,7 +3,7 @@ import Title from "./Title";
 
 function CurrentWork() {
   return (
-    <div className="flex flex-col items-center justify-center pt-10 pb-12 px-6 sm:px-12 md:px-16 lg:px-24 bg-cream font-jetbrains w-full">
+    <div className="flex flex-col items-center justify-center pt-10 pb-16 px-6 sm:px-12 md:px-16 lg:px-24 bg-cream font-jetbrains w-full">
       <div className="text-center w-full">
         <Title>Current Work</Title>
       </div>
