@@ -1,9 +1,8 @@
 import React from "react";
 
-function PortfolioProject({ title, imgUrl, stack, URL }) {
-
+function ProjectCard({ title, imgUrl, stack, URL }) {
   const handleClick = () => {
-    window.open(URL, '._blank')
+    window.open(URL, '._blank');
   };
 
   return (
@@ -20,7 +19,10 @@ function PortfolioProject({ title, imgUrl, stack, URL }) {
         </h3>
         <p className="flex flex-wrap gap-2 flex-row items-center justify-center text-xs md:text-sm">
           {stack.map((item, index) => (
-            <span key={index} className="inline-block px-2 py-1 font-semibold border-2 border-gray-200 rounded-md">
+            <span
+              key={index}
+              className="inline-block px-2 py-1 font-semibold border-2 border-gray-200 rounded-md"
+            >
               {item}
             </span>
           ))}
@@ -30,4 +32,4 @@ function PortfolioProject({ title, imgUrl, stack, URL }) {
   );
 }
 
-export default PortfolioProject;
+export default ProjectCard;

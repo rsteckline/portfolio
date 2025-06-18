@@ -8,7 +8,7 @@ export default {
         jetbrains: ['"JetBrains Mono"', 'monospace'],
       },
       colors: {
-        main: '#19414e',
+        main: '#1D5A6C',
         cream: '#F6F4F1',
       }
     },

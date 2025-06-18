@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "./Title";
-import PortfolioProject from "./PortfolioProject";
+import ProjectCard from "./ProjectCard";
 import challenges from "../data/challenges";
 
 function Challenges() {
@@ -11,7 +11,7 @@ function Challenges() {
       </div>
       <div className="grid p-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {challenges.map((challenge, index) => (
-          <PortfolioProject
+          <ProjectCard
             imgUrl={challenge.imgUrl}
             title={challenge.title}
             stack={challenge.stack}
