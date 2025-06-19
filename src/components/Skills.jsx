@@ -22,7 +22,7 @@ function Skills() {
           Responsive User Interface Design
         </h3>
         <p className="sm:mb-7">
-          I design and develop with adaptability and accessibility in mind, ensuring consistent, intuitive experiences across platforms, devices, and assistive technologies.
+          Interfaces are built with adaptability in mind, ensuring a consistent, accessible experience for all users across screen sizes, devices, and assistive technologies.
         </p>
       </div>
       <div className="w-full md:w-1/2 lg:w-1/4 p-4 text-center">
@@ -31,7 +31,7 @@ function Skills() {
           Web Performance Optimization
         </h3>
         <p className="sm:mb-7">
-          Performance is prioritized through thoughtful code structure, asset optimization, and responsiveness to deliver fast, reliable user interactions.
+          My work emphasizes speed and efficiency, ensuring that users experience fast load times and seamless interactions without sacrificing clarity or user accessibility.
         </p>
       </div>
       <div className="w-full md:w-1/2 lg:w-1/4 p-4 text-center">
@@ -40,7 +40,7 @@ function Skills() {
           API Utilization and Testing
         </h3>
         <p>
-          Extensive experience working with RESTful APIs, focusing on clean integration, comprehensive testing, debugging, and reliable communication between services.
+          End-to-end development of REST APIs includes designing endpoints, integrating with client systems, and testing for stability, error handling, and consistent performance.
         </p>
       </div>
     </div>
