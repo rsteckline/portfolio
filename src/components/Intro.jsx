@@ -12,7 +12,7 @@ function Intro() {
             Software Engineer & Support Specialist
           </p>
           <p className="text-sm sm:text-md md:text-md lg:text-lg max-w-full md:max-w-3xl lg:max-w-3xl font-bold text-main">
-            I'm a software engineer with a background in support and over 10 years of experience in team management and customer-facing roles. I focus on building accessible, user-friendly interfaces using JavaScript, React, TypeScript, HTML, CSS, and Tailwind. I'm comfortable working across Agile teams and enjoy balancing clean UI design with strong, test-driven development. Whether collaborating or leading, I bring a mix of technical skills and real-world problem-solving to every project.
+            I'm a problem-solver with a background in support, team management, and over a decade of customer-facing experience. Whether working in tech, operations, or client services, I bring a balance of clear communication, systems thinking, and practical execution. I thrive in agile environments where I can contribute to both the details and the big picture.
           </p>
         </div>
         {/* <div className="ml-8 lg:ml-16 flex-shrink-0 hidden lg:block mt-[-150px]">
